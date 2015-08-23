@@ -1,0 +1,8 @@
+#Experimental design and background: 
+Blood is given to trauma patients as blood components: red blood cells, plasma and platelets. This experiment was aimed at seeing if increasing the ratio of red blood cells over that in normal whole blood would lower mortality. There were two treatment groups, normal and increased red cells. Patients were screened at 12 participating hospitals. Randomization was done by per mutated random blocks, stratified by site.
+
+#Raw data: 
+randomization assignment, date and time of admission to the hospital, type of injury, fluids given by EMT/paramedic before admission, hospital, time of blood product administration, lot number of blood product, time of hemostasis achieved, other fluids, pre-existing blood clotting diseases, pre-existing blood clotting inhibitors, date and time of discharge from ICU, date and time of ventilator start and stop, date and time of discharge from hospital and date and time of death (if death occurred within 30 days).
+
+#Processed data: 
+Assignment was 
