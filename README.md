@@ -1,9 +1,8 @@
 # Getting-and-Cleaning-Data
-One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained here:
-	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at this site where the data was obtained: 	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The purpose of this project is to demonstrate the collection, manipulation and cleaning of a data set, using R programming.
-
 The goal is to prepare tidy data that can be used for later analysis.
 
 ##Data Set Information
@@ -12,10 +11,9 @@ The experiments were carried out with a group of 30 volunteers within an age bra
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 
-A video of the experiment including an example of the 6 recorded activities with one of the participants can be seen in the following link: 
-	http://www.youtube.com/watch?v=XOEN9W05_4A
+A video of the experiment including an example of the 6 recorded activities with one of the participants can be seen in the following link: http://www.youtube.com/watch?v=XOEN9W05_4A
 
-##Files provided in a compressed file that were required to prepare the tidy data sets
+##Files that were required to prepare the tidy data sets
 
 * 'train/X_train.txt'- Training set with 561 Variables and 7352 Observations
 * 'train/y_train.txt'- Training labels set with 1 Variable and 7352 Observations
@@ -28,7 +26,8 @@ A video of the experiment including an example of the 6 recorded activities with
 *•'README.txt' - Reference file with background Information
 * 'features_info.txt'- Reference file that shows information about the variables used on the feature vector
 
-## run_analysis.R Script creation steps 
+## run_analysis.R Script creation steps
+
 * Merge the training and the test sets to create one data set
 * Extract only the measurements on the mean and standard deviation for each measurement 
 * Use descriptive activity names to name the activities in the data set
@@ -36,6 +35,7 @@ A video of the experiment including an example of the 6 recorded activities with
 * Create a second, independent tidy data set with the average of each variable for each activity and each subject 
 
 ##Information Source
+
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
