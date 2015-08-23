@@ -23,7 +23,7 @@ A video of the experiment including an example of the 6 recorded activities with
 * 'activity_labels.txt'- Links the class labels with their activity name with 2 Variables and 6 Observations
 * 'train/subject_test.txt'- Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30 with 1 Variable and 2947 Observations
 * 'train/subject_train.txt'- Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30 with 1 Variable and 7352 Observations
-*•'README.txt' - Reference file with background Information
+* 'README.txt' - Reference file with background Information
 * 'features_info.txt'- Reference file that shows information about the variables used on the feature vector
 
 ## run_analysis.R Script Creation Steps
@@ -34,7 +34,7 @@ A video of the experiment including an example of the 6 recorded activities with
 * Appropriately label the data set with descriptive variable names
 * Create a second, independent tidy data set with the average of each variable for each activity and each subject 
 
-##Information Source
+##Information Source Reference
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
