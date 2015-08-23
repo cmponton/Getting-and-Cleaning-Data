@@ -17,7 +17,7 @@ For each record in the dataset it is provided:
 
 Subject = The Individual’s participant ID (count of 1-30)
 
-Activity = Category of action performed when the measurements were taken transformed from Factor of 1-6 to following naming convention:
+Activity = Category of action performed when the measurements were taken. Transformed from Factor of 1-6 to following naming convention:
 *	WALKING (value 1)
 *	WALKING_UPSTAIRS (value 2)
 *	WALKING_DOWNSTAIRS (value 3)
