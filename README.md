@@ -13,7 +13,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 A video of the experiment including an example of the 6 recorded activities with one of the participants can be seen in the following link: http://www.youtube.com/watch?v=XOEN9W05_4A
 
-##Files that were required to prepare the tidy data sets
+##Files Required to Create Tidy Data Sets
 
 * 'train/X_train.txt'- Training set with 561 Variables and 7352 Observations
 * 'train/y_train.txt'- Training labels set with 1 Variable and 7352 Observations
@@ -26,7 +26,7 @@ A video of the experiment including an example of the 6 recorded activities with
 *•'README.txt' - Reference file with background Information
 * 'features_info.txt'- Reference file that shows information about the variables used on the feature vector
 
-## run_analysis.R Script creation steps
+## run_analysis.R Script Creation Steps
 
 * Merge the training and the test sets to create one data set
 * Extract only the measurements on the mean and standard deviation for each measurement 
