@@ -26,7 +26,7 @@ A video of the experiment including an example of the 6 recorded activities with
 * 'README.txt' - Reference file with background Information
 * 'features_info.txt'- Reference file that shows information about the variables used on the feature vector
 
-## run_analysis.R Script Main Steps
+## "run_analysis.R" Script - High Level Steps
 
 * Merge the training and the test sets to create one data set
 * Extract only the measurements on the mean and standard deviation for each measurement 
@@ -35,7 +35,7 @@ A video of the experiment including an example of the 6 recorded activities with
 * Create a second, independent tidy data set with the average of each variable for each activity and each subject 
 
 
-##run_analysis.R Script detailed steps
+##"run_analysis.R" Script - Detailed steps
 * Load libraries
 * Donload zip package from website source into local directory
 * Unzip package in local directory
