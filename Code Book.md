@@ -25,7 +25,7 @@ Activity - Category of action performed when the measurements were taken. Transf
 *	STANDING (value 5)
 *	LAYING (value 6)
 
-Column Variables from Columns 3 to 68 originally named Features - Transformed from 561 to 66 Variables/Signals by selecting only the mean and std deviation Features signal measurements, reading the average per Activity and Subject. Transformed the Feature names by omiting the () string in their names. 
+Column Variables originally named Features (Columns 3 to 68) - Transformed from 561 variables in original merged dataset to 66 Variables by selecting only the mean and std deviation Features measurements, and reading the average per Activity and Subject. Also transformed the Feature names by omiting the () string in their names. 
 
 General Description of the Features/Variables
 * XYZ Features - denotes 3-axial signals in the X, Y and Z directions
@@ -36,6 +36,6 @@ General Description of the Features/Variables
 * fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag – Produced after aplying Fast Fourier Transform (FFT) to some of the above signals. Note the prefix f to denote frequency domain signals
 * gravityMean, tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, tBodyGyroJerkMean – angle() variables 
 
-Features Signal Measurements
+Measurements of the Features:
 * mean: Mean value
 * std: Standard deviation 
