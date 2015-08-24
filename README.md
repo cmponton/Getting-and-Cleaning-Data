@@ -26,7 +26,7 @@ A video of the experiment including an example of the 6 recorded activities with
 * 'README.txt' - Reference file with background Information
 * 'features_info.txt'- Reference file that shows information about the variables used on the feature vector
 
-## run_analysis.R Script Creation Steps
+## run_analysis.R Script main outcome
 
 * Merge the training and the test sets to create one data set
 * Extract only the measurements on the mean and standard deviation for each measurement 
@@ -34,7 +34,30 @@ A video of the experiment including an example of the 6 recorded activities with
 * Appropriately label the data set with descriptive variable names
 * Create a second, independent tidy data set with the average of each variable for each activity and each subject 
 
-##Information Source Reference
+
+##run_analysis.R Script main main steps
+* Load libraries
+* Donload zip package in local directory
+* Unzip package in local directory
+* Read into R features.txt to be used to name train and test dataset variables
+* Read into R activity_lables to be used to map the activities names to the train and data sets observations
+* Read into R test datasets: X_test.txt + y_test.txt + subject_test.txt
+* Read in train datasets: X_train.txt + y_train.txt + subject_train.txt
+* Append X datasets to form a XMerged dataset
+* Append Y datasets to form a YMerged dataset
+* Append subject datasets to form a SUbjectMerged dataset
+* Name columns in Feature dataset to "FeatureID" and FeatureName"
+* Select all mean and std deviations FeatureName columns
+* Add feature names to X merged dataset
+* Remove "()" string from column headers
+* Name columns in the activity dataset to "ActivityID" and "ActivityName"
+* Replace activity codes (1:6) in the YMerged dataset for the corresponding activity labels
+* Create tidy data 1 set by appending SubjectMerged + XMerged + YMerged datasets
+* Create tidy data 2 set with the average of each variable for each activity (6 total) and each subject (30 individuals for each activity -2nd dimension)
+* Write tidy data set 1 to local directory using the txt format
+* Write tidy data set 2 to local directory using the txt format
+
+##Data Information Source Reference
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
