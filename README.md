@@ -42,13 +42,13 @@ A video of the experiment including an example of the 6 recorded activities with
 * Read into R features.txt to be used to name train and test dataset variables
 * Read into R activity_lables to be used to map the activities names to the train and data sets observations
 * Read into R test datasets: X_test.txt + y_test.txt + subject_test.txt
-* Read in train datasets: X_train.txt + y_train.txt + subject_train.txt
+* Read into R train datasets: X_train.txt + y_train.txt + subject_train.txt
 * Append X datasets to form a XMerged dataset
 * Append Y datasets to form a YMerged dataset
-* Append subject datasets to form a SUbjectMerged dataset
+* Append subject datasets to form a SubjectMerged dataset
 * Name columns in Feature dataset to "FeatureID" and FeatureName"
-* Select all mean and std deviations FeatureName columns
-* Add feature names to X merged dataset
+* Add feature names to XMerged dataset
+* Select all FeatureNames with mean and std deviation measurements
 * Remove "()" string from column headers
 * Name columns in the activity dataset to "ActivityID" and "ActivityName"
 * Replace activity codes (1:6) in the YMerged dataset for the corresponding activity labels
