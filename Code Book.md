@@ -15,9 +15,9 @@ For each record in the dataset it is provided:
 
 ##Processed Data
 
-Subject = The Individual’s participant ID (count of 1-30)
+Subject - The Individual’s participant ID (count of 1-30)
 
-Activity = Category of action performed when the measurements were taken. Transformed from Factor of 1-6 to following naming convention:
+Activity - Category of action performed when the measurements were taken. Transformed from Factor of 1-6 to following naming convention:
 *	WALKING (value 1)
 *	WALKING_UPSTAIRS (value 2)
 *	WALKING_DOWNSTAIRS (value 3)
@@ -25,17 +25,17 @@ Activity = Category of action performed when the measurements were taken. Transf
 *	STANDING (value 5)
 *	LAYING (value 6)
 
-Features  = Transformed from 561 to 66 Variables/Signals by selecting only the mean and std deviation Features signal measurements reading the average per Activity and Subject.  Transformed the names by omiting the () string in their names. 
+Column Variables from Columns 3 to 68 originally named Features - Transformed from 561 to 66 Variables/Signals by selecting only the mean and std deviation Features signal measurements, reading the average per Activity and Subject. Transformed the Feature names by omiting the () string in their names. 
 
-General Description of the Features
+General Description of the Features/Variables
 * XYZ Features - denotes 3-axial signals in the X, Y and Z directions
 * tAcc-XYZ and tGyro-XYZ - accelerometer and gyroscope 3-axial raw signals with prefix t to denote time
 * tBodyAcc-XYZ and tGravityAcc-XYZ – Acceleration signals separated into body and gravity acceleration signals
 * tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ – Jerk signals derived from body linear acceleration and angular velocity 
 * tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag  - Euclidean norm measurements to calculate the magnitude of the 3 dimensional Jerk signals described above
 * fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag – Produced after aplying Fast Fourier Transform (FFT) to some of the above signals. Note the prefix f to denote frequency domain signals
-* gravityMean, tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, tBodyGyroJerkMean – angle() variable 
+* gravityMean, tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, tBodyGyroJerkMean – angle() variables 
 
-Features Signals Measurements
+Features Signal Measurements
 * mean: Mean value
 * std: Standard deviation 
